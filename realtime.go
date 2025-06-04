@@ -25,6 +25,7 @@ type Realtime struct {
 
 type Trip struct {
 	ID              TripID
+	Headsign        *string
 	StopTimeUpdates []StopTimeUpdate
 
 	Vehicle *Vehicle
